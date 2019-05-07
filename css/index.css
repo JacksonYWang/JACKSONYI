@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 100px;
+}
+.head{
+	width: 85%;
+	height: 100px;
+	margin: auto;
+	display: flex;
+}
+.left{
+	margin-top: 10px;
+}
+.left>img{
+	width: 225px;
+	height: 70px;
+}
+.top{
+	margin-top: 10px;
+	font-size: 12px;
+	margin-left: 400px;
+}
+.bottom{
+	height: 50px;
+}
+.bottom>ul{
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.bottom>ul>li{
+	width: 16%;
+	list-style: none;
+	float: left;
+}
+.bottom>ul>li>span{
+	position: relative;
+	top: -20px;
+	left: 30px;
+}
+.bottom>ul>li>b>img{
+	display: none;
+}
+.bottom>ul>li:nth-child(1)>b>img{
+	display:block;
+}
+
